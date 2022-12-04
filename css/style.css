@@ -14,7 +14,7 @@
     padding:15px 50px;
     background-color: transparent;
     box-shadow:rgb(0 0 0 / 97%) 0px 34px 20px -20px;
-    color: white;
+    color: #f507ef;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -61,12 +61,12 @@
 
 /* About Me */
 #about-container{
-    width: 100%;
     height: 100vh;
     background:black;
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 0px 97px;
     justify-content: space-evenly;
 }
 #profile-div{
@@ -82,7 +82,7 @@
     background: url(./../images/squareprofile.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 40%;
+    width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -91,13 +91,38 @@
 #Profile-img{
     width: 90%;
     height: 62.5%;
-    margin-left: 29px;
+    margin-left: 31px;
+}
 
+#profiletitle{
+    font-size: 25px;
+    line-height: 65px;
+    color: #f507ef;
+}
+#introduction{
+    margin-bottom: 28px;
+    padding-right: 100px;
 }
 #aboutcontent{
     width:50%;
     color: white;
+    line-height: 24px;
+    text-align: justify;
 }
-#profiletitle{
-    font-size: 20px;
+#cvbutton{
+    border-radius: 20px;
+    padding: 7px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: rgb(128, 128, 239);
+    color: #f507ef;
+}
+#cvbutton:hover{
+    background-color: blueviolet;
+}
+.information-titiles{
+    color: #f507ef;
+}
+#introduction > a{
+    cursor: pointer;
 }
